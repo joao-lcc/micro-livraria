@@ -11,7 +11,6 @@ const packageDefinition = protoLoader.loadSync('proto/shipping.proto', {
 const shippingProto = grpc.loadPackageDefinition(packageDefinition);
 
 const server = new grpc.Server();
-
 // implementa os métodos do ShippingService
 server.addService(shippingProto.ShippingService.service, {
     GetShippingRate: (_, callback) => {

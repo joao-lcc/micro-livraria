@@ -67,6 +67,10 @@ body {
     box-shadow: 0 10px 16px rgba(0, 0, 0, 0.13), 0 6px 6px rgba(0, 0, 0, 0.19);
 }
 
+.pesquisa{
+    width: 215px;
+}
+
 @media (min-width: 800px) {
     .book-meta {
         min-height: 250px;
